@@ -15,4 +15,9 @@ h1{
     background-color: yellow;
     padding: 0 4px;
     border: none;
+    border-radius: 15px;
+}
+
+.lime{
+    background-color: lime;
 }
