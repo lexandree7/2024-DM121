@@ -21,3 +21,18 @@ h1{
 .lime{
     background-color: lime;
 }
+
+[href^="http"]{
+    border: none;
+    text-decoration: none;
+
+}
+
+[href^="http"]::before{
+    content: "🔗";
+    font-size: 0.7rem;
+}
+[href^="http"]::after{
+    content: "🔗";
+    font-size: 0.7rem;
+}
