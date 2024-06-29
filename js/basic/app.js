@@ -27,5 +27,11 @@ function fancyPrint(text){
 
 }
 
-nameList.forEach(fancyPrint);
+const toUpper = (text) => text.toUpperCase();
+
+nameList
+    .sort()
+    .reverse()
+    .map(toUpper)
+    .forEach(fancyPrint);
 
