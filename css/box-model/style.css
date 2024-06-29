@@ -1,0 +1,35 @@
+:root {
+    --border-size: 10px;
+    --margin-size: 14px;
+}
+
+.container{
+    border: solid darkblue;
+    border-width: var(--border-size);
+
+    & div {
+        border: solid red;
+        border-width: var(--border-size);
+    }
+
+    & .item1 {
+        border-color: red;
+        margin-top: 4px;
+        margin-left: 4px;
+
+        * {
+            border: 2px dotted gray;
+        }
+
+        &:hover span {
+            background-color: rgb(113, 219, 187);
+        }
+        
+    }
+    & .item2{
+        border-color: blueviolet;
+        margin: 14px 50px;
+        padding: 20px;
+        background-color: rgb(194, 194, 209);
+    }
+}
