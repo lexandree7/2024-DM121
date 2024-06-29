@@ -4,7 +4,7 @@ p {
     margin: 0 auto;
     padding: 10px;
     opacity: 0;
-    transition: all 0.4s linear;
+    transition: all 0.3s linear;
 
     &::first-letter{
         color: red;
@@ -32,6 +32,7 @@ p {
     }
 }
 
-p + p{
-    margin-top: 1000px;
+#second-one target{
+    transform: translateY(-100%);
 }
+
